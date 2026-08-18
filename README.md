@@ -1,0 +1,38 @@
+# Austen Tucker
+
+I’m an applied AI engineer and product builder focused on agentic systems, evaluation, durable workflows, and accessible software.
+
+I turn ambiguous human workflows into working tools with state, permissions, verification, and interfaces people can actually use.
+
+## Featured work
+
+### Conductor — agent orchestration infrastructure
+
+A private, local-first orchestration system with planner, worker, and evaluator roles; immutable plan approvals; isolated execution; durable SQLite state; crash recovery; action-scoped authorization; and human review before work reaches Done.
+
+### [Furry Image Studio](https://github.com/Arcadesys/furry-image-studio)
+
+An installable Codex plugin for reusable character and rendering profiles, multimodal image workflows, validation tooling, checksum-backed evaluation traces, human review, and regression testing.
+
+### [Wizwor](https://github.com/Arcadesys/wizwor)
+
+An agentic Nintendo recommendation experience built with Next.js, TypeScript, and the OpenAI Agents SDK, backed by deterministic and rubric-based evals derived from user and job stories.
+
+### [NovelTools](https://github.com/Arcadesys/NovelTools)
+
+A VS Code extension for long-form writing with structured project schemas, drag-and-drop manuscript editing, release automation, and PDF, EPUB, Markdown, and TXT builds.
+
+## Engineering themes
+
+- Agent orchestration, tools, guardrails, and human approval boundaries
+- Evaluation datasets, deterministic checks, rubric judging, and regression cases
+- Durable local state, interruption recovery, and idempotent workflows
+- Accessible interfaces tested for keyboard use and high zoom
+- Product engineering that connects AI behavior to real user workflows
+
+## Also me
+
+I build for blind and neurodivergent communities, write furry literary fiction, and make playful software with serious engineering underneath it.
+
+- [Website](https://thearcades.me)
+- [LinkedIn](https://www.linkedin.com/in/austen-tucker-0968a914/)
