@@ -12,7 +12,7 @@ A local-first orchestration system with planner, worker, and evaluator roles; im
 
 ### [Furry Image Studio](https://github.com/Arcadesys/furry-image-studio)
 
-An installable Codex plugin for reusable character and rendering profiles, multimodal image workflows, validation tooling, checksum-backed evaluation traces, human review, and regression testing.
+Reusable AI character-transformation tools delivered as an installable Codex plugin. Separate identity and style profiles preserve character canon across generation, selected-subject transformation, localized repair, distribution, and checksum-backed multimodal evaluation.
 
 ### [Wizwor](https://github.com/Arcadesys/wizwor)
 
