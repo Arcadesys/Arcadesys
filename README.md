@@ -6,9 +6,9 @@ I turn ambiguous human workflows into working tools with state, permissions, ver
 
 ## Featured work
 
-### Conductor — agent orchestration infrastructure
+### [Conductor — agent orchestration infrastructure](https://github.com/Arcadesys/conductor)
 
-A private, local-first orchestration system with planner, worker, and evaluator roles; immutable plan approvals; isolated execution; durable SQLite state; crash recovery; action-scoped authorization; and human review before work reaches Done.
+A local-first orchestration system with planner, worker, and evaluator roles; immutable plan approvals; isolated execution; durable SQLite state; crash recovery; action-scoped authorization; and human review before work reaches Done.
 
 ### [Furry Image Studio](https://github.com/Arcadesys/furry-image-studio)
 
