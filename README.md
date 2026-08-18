@@ -22,6 +22,10 @@ An agentic Nintendo recommendation experience built with Next.js, TypeScript, an
 
 A VS Code extension for long-form writing with structured project schemas, drag-and-drop manuscript editing, release automation, and PDF, EPUB, Markdown, and TXT builds.
 
+### [Heinlein](https://github.com/Arcadesys/heinlein)
+
+A Python publishing pipeline, now exposed as a reusable Codex skill, that turns Markdown manuscripts into branded PDF, EPUB, DOCX, HTML, and plain-text editions with project configuration, chapter navigation, live preview, archives, and tested builds.
+
 ## Engineering themes
 
 - Agent orchestration, tools, guardrails, and human approval boundaries
