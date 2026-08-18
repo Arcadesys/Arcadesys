@@ -1,8 +1,10 @@
 # Austen Tucker
 
-I’m an applied AI engineer and product builder focused on agentic systems, evaluation, durable workflows, and accessible software.
+**Forward-deployed AI builder and applied AI engineer.**
 
-I turn ambiguous human workflows into working tools with state, permissions, verification, and interfaces people can actually use.
+I deploy AI systems into messy human workflows—with evaluation, approval gates, durable state, and accessible interfaces people can actually use.
+
+I turn ambiguous requirements into working tools: I map the workflow, build the system, make its behavior verifiable, and leave people in control of consequential actions.
 
 ## Featured work
 
