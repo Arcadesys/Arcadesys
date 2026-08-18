@@ -24,7 +24,7 @@ A VS Code extension for long-form writing with structured project schemas, drag-
 
 ### [Heinlein](https://github.com/Arcadesys/heinlein)
 
-A Python publishing pipeline, now exposed as a reusable Codex skill, that turns Markdown manuscripts into branded PDF, EPUB, DOCX, HTML, and plain-text editions with project configuration, chapter navigation, live preview, archives, and tested builds.
+The production publishing system FREE PLAY Publishing uses to make its books. Heinlein turns Markdown manuscripts into branded PDF, EPUB, DOCX, HTML, and plain-text editions, and is now exposed as a reusable Codex skill with project configuration, chapter navigation, live preview, archives, and tested builds.
 
 ## Engineering themes
 
