@@ -6,47 +6,47 @@ I turn messy human workflows into working AI systems: map the job, build the pro
 
 My sweet spot is the territory between **product engineering and agent engineering**: tools, orchestration, evals, human review, accessibility, and the stubborn last 20% that turns a demo into something trustworthy.
 
-## Flagship systems
+## Featured projects
 
-### Conductor · private, available to demo
-A local-first orchestration system for approval-gated agent work.
+### 1. [Job Search Harness](https://github.com/Arcadesys/job-search-harness)
 
-- Planner → worker → evaluator execution across Codex and Claude
-- Immutable plan-hash approvals and action-scoped authorization
-- Isolated workspaces, durable SQLite state, interruption recovery, and idempotent imports
-- Human acceptance before work reaches Done
-- E2E verification, token capture, keyboard coverage, and 200% zoom testing
+A job search involves private records, repeated preparation, and claims that must stay true. This local desktop workspace connects AI assistants to approved résumé claims, recoverable discovery and preparation workflows, and confirmation receipts.
 
-### 🦊 [Furry Image Studio](https://github.com/Arcadesys/furry-image-studio)
-Reusable multimodal tooling for character-preserving image transformation.
+Explore the local owner/broker, MCP contract, and durable workflow design. Start with the [install or development guide](https://github.com/Arcadesys/job-search-harness#install). Public source; private local records.
 
-- Installable Codex plugin with reusable skills, character profiles, and style profiles
-- Character identity kept separate from rendering style
-- CI-validated packaging and release consistency checks
-- Checksum-backed eval traces, human review, and an optional private MCP evaluation service
+### 2. [Conductor](https://github.com/Arcadesys/conductor)
 
-### 🧙 [Wizwor](https://github.com/Arcadesys/wizwor)
-An agentic Nintendo recommendation experience built with Next.js, TypeScript, and the OpenAI Agents SDK.
+A local project board for agent work that needs an approved plan and a clear human review boundary. Planner, worker, and evaluator roles run across Codex and Claude, backed by SQLite state, immutable plan hashes, and interruption recovery.
 
-- Agent-driven preference discovery backed by deterministic recommendation logic
-- Evals for preference extraction, conversation policy, recommendation quality, and UX behavior
-- Regression cases promoted from real failures
-- Browser E2E coverage and deterministic catalog-generation pipelines
+Explore approval gates and failure cases, or [run it locally](https://github.com/Arcadesys/conductor#run-locally). Successful agent work stops at In Review.
 
-### ✍️ [NovelTools](https://github.com/Arcadesys/NovelTools)
-A VS Code extension for long-form writing and publishing.
+### 3. [Bunch](https://github.com/Arcadesys/bunch)
 
-- Structured manuscript schemas and drag-and-drop editing
-- AI context export for Cursor, Copilot, and other assistants
-- Automated PDF, EPUB, Markdown, and TXT release builds
-- A useful proof that I build software, not just LLM wrappers
+A private-record companion for explicit presence, shared notes, and catching up. Its web app and MCP server use the same authorization and transactional services; hosting and fronting remain independent, and missing records never become inferred history.
 
-### 📚 [Heinlein](https://github.com/Arcadesys/heinlein)
-The production publishing system used by FREE PLAY Publishing.
+Explore the [architecture](https://github.com/Arcadesys/bunch/blob/main/ARCHITECTURE.md), or [try demo mode locally](https://github.com/Arcadesys/bunch#getting-started) with a separate database. Public source; private companion records.
 
-- Markdown → branded PDF, EPUB, DOCX, HTML, and plain text
-- Reusable Codex skill and project configuration
-- Chapter navigation, live preview, archives, and tested builds
+### 4. [Bunch: Character Studio](https://github.com/Arcadesys/bunch-character-studio)
+
+Reusable tools for keeping characters recognizable across AI image generation, transformation, and repair. Character identity stays separate from rendering style, with human review and optional private evaluation traces.
+
+[Install the plugin](https://github.com/Arcadesys/bunch-character-studio#chatgpt-desktop--codex-plugin), or explore the skills, profile validation, and release packaging checks.
+
+### 5. [Wizwor](https://github.com/Arcadesys/wizwor)
+
+A retro-game recommendation prototype that interviews the player and scores a local catalog. The OpenAI Agents SDK handles conversation; deterministic checks and rubric evals examine state, recommendation behavior, and explanations.
+
+[Run it locally](https://github.com/Arcadesys/wizwor#run-locally) with your own API key, or start with the recommendation logic and eval cases.
+
+### 6. [Heinlein](https://github.com/Arcadesys/heinlein)
+
+FREE PLAY Publishing's Markdown pipeline for branded PDF, EPUB, DOCX, HTML, and plain text. Project configuration, chapter navigation, and live preview support publishing from one source.
+
+[Build a manuscript](https://github.com/Arcadesys/heinlein#usage), or explore templates and format-specific tests using sample material.
+
+## Additional project
+
+[NovelTools](https://github.com/Arcadesys/NovelTools) is a VS Code extension for long-form writing and publishing, with structured manuscripts and AI context export.
 
 ## How I build
 
